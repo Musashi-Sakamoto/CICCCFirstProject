@@ -1,4 +1,6 @@
-var instance = M.Carousel.init({
-  fullWidth: true,
-  indicators: true
+$(document).ready(function() {
+  $('.carousel').carousel({
+    fullWidth: true,
+    indicators: true
+  }).height(700);
 });
