@@ -1,8 +1,8 @@
-const numberInput = document.getElementById("input5");
-const answerText = document.getElementById("answer5");
+const number5Input = document.getElementById("input5");
+const answer5Text = document.getElementById("answer5");
 
-numberInput.addEventListener('input', function(e) {
-  answerText.innerHTML = isPrime(parseInt(e.target.value)) ? 'It is a prime number' : 'It is not a prime number';
+number5Input.addEventListener('input', function(e) {
+  answer5Text.innerHTML = isPrime(parseInt(e.target.value)) ? 'It is a prime number' : 'It is not a prime number';
 })
 
 function isPrime(numInput) {
