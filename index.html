@@ -19,17 +19,43 @@
       <h2>First Panel</h2>
       <p class="white-text">1 st Section: What is your name? Then, it will show on `Hi, ${yourName}, Welcome to this
         page`</p>
-      <div>
-        TODO:Your Code Here
-      </div>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <input placeholder="Input your name : " class="white-text" id="input1" type="text" style="text-align: center;">
+          </div>
+          <div class="col s6 offset-s3">
+            <h4 id="answer1"></h4>
+          </div>
+        </div>
     </div>
 
-    <div class="carousel-item amber white-text">
+    <div class="carousel-item brown white-text">
       <h2>Second Panel</h2>
       <p class="white-text">2 nd Section: Creating a calculator based on two inputs that can do multiplication, division,
         addition, and subtraction.</p>
       <div>
         TODO:Your Code Here
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <input placeholder="Input first number?" id="num2first" class="white-text" type="number" style="text-align: center;">
+          </div>
+          <div class="input-field col s6 offset-s3">
+            <input placeholder="Input second number?" id="num2second" class="white-text" type="number" style="text-align: center;">
+          </div>
+          <div class="col s3">
+            <a id="button2plus" class="waves-effect waves-light btn">plus</a>
+          </div>
+          <div class="col s3">
+            <a id="button2minus" class="waves-effect waves-light btn">minus</a>
+          </div>
+          <div class="col s3">
+            <a id="button2times" class="waves-effect waves-light btn">times</a>
+          </div>
+          <div class="col s3">
+            <a id="button2divide" class="waves-effect waves-light btn">divde</a>
+          </div>
+          <h4 id="answer2"></h4>
+        </div>
       </div>
     </div>
 
@@ -112,6 +138,8 @@
 
   </div>
   <script src="carousel.js"></script>
+  <script src="section1.js"></script>
+  <script src="section2.js"></script>
   <script src="section3.js"></script>
   <script src="section4.js"></script>
   <script src="section5.js"></script>
