@@ -2,5 +2,5 @@ $(document).ready(function() {
   $('.carousel').carousel({
     fullWidth: true,
     indicators: true
-  }).height(700);
+  }).height(window.innerHeight);
 });
