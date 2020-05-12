@@ -6,15 +6,18 @@ number6Input.addEventListener('input', function(e) {
 })
 
 function fibonacciNums(idx) {
+  let pre = 1;
+  let cur = 1;
   const returnedArray = [];
-  for (let i = 1; i < idx; i++) {
-    returnedArray.push(fib(i));
+  for (let i = 0; i < idx; i++) {
+    if (i === 0 || i === 1) {
+      returnedArray.push(1);
+    } else {
+      const current = pre + cur;
+      returnedArray.push(current);
+      pre = cur;
+      cur = current;
+    }
   }
   return returnedArray;
 }
-
-function fib(n) {
-  if (n === 0) return 0;
-  if (n === 1) return 1;
-  return fib(n - 1) + fib(n - 2);
-};
