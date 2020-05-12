@@ -1,3 +1,10 @@
+const number6Input = document.getElementById("input6");
+const answer6Text = document.getElementById("answer6");
+
+number6Input.addEventListener('input', function(e) {
+  answer6Text.innerHTML = fibonacciNums(parseInt(e.target.value));
+})
+
 function fibonacciNums(idx) {
   const returnedArray = [];
   for (let i = 1; i < idx; i++) {
