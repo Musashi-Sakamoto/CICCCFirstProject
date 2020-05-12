@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CICCC MID PROJECT</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./main.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+  <div class="carousel carousel-slider center">
+
+    <div class="carousel-item red white-text">
+      <h2>First Panel</h2>
+      <p class="white-text">1 st Section: What is your name? Then, it will show on `Hi, ${yourName}, Welcome to this
+        page`</p>
+      <div>
+        TODO:Your Code Here
+      </div>
+    </div>
+
+    <div class="carousel-item amber white-text">
+      <h2>Second Panel</h2>
+      <p class="white-text">2 nd Section: Creating a calculator based on two inputs that can do multiplication, division,
+        addition, and subtraction.</p>
+      <div>
+        TODO:Your Code Here
+      </div>
+    </div>
+
+    <div class="carousel-item green white-text">
+      <h2>Third Panel</h2>
+      <p class="white-text">3 rd Section: How old are you? Age &lt;= 20 “You need to study hard”
+        Age &lt;= 30 “Study more”
+        Age &lt;= 40 “Make a lot of money”
+        Age &lt;= 50 “Be successful”
+        Others “Travel a lot”</p>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <input placeholder="Input your age : " class="white-text" id="input3" type="number" style="text-align: center;">
+          </div>
+          <div class="col s6 offset-s3">
+            <h4 id="answer3"></h4>
+          </div>
+        </div>
+    </div>
+
+    <div class="carousel-item blue white-text">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">4 th Section: as two numbers using input tags and show the sum from numberA through
+        numberB including these two numbers (ex, 4 and 6 will show 15)</p>
+        <div class="row">
+          <table><tr><td><div class="input-field col s6 offset-s3">
+            <input placeholder="Input your first number : " class="white-text" id="input41" type="number" style="text-align: center;">
+          </div></td><td><div class="input-field col s6 offset-s3">
+            <input placeholder="Input your second number : " class="white-text" id="input42" type="number" style="text-align: center;">
+          </div></td></tr></table>
+          
+          
+          <div class="col s6 offset-s3">
+            <h4 id="answer4"></h4>
+          </div>
+        </div>
+    </div>
+
+    <div class="carousel-item red white-text">
+      <h2>Fifth Panel</h2>
+      <p class="white-text">5 th Section: Ask a number and shows the number is a prime number or not (the smallest
+        prime number is 2)</p>
+      <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <input placeholder="Is it a prime number?" class="white-text" id="input5" type="number" style="text-align: center;">
+        </div>
+        <div class="col s6 offset-s3">
+          <h4 id="answer5"></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item amber white-text">
+      <h2>Sixth Panel</h2>
+      <p class="white-text">6 th Section: Ask a number ‘n’ to show all the Fibonacci numbers up to n th Fibonacci number.
+        For example, if the number is 7, it will show 1, 1, 2, 3, 5, 8, 13</p>
+      <div class="row">
+        <div class="input-field col s6 offset-s3">
+          <input placeholder="Insert a number" class="white-text" id="input6" type="number" style="text-align: center;">
+        </div>
+        <div class="col s6 offset-s3">
+          <h4 id="answer6"></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item green white-text">
+      <h2>Seventh Panel</h2>
+      <p class="white-text">7 th Section: Ask a birth year and calculate how many days you lived till today. Show the days
+        you lived in a DOM element. (Please ignore the leap year)</p>
+        <div class="row">
+          <div class="input-field col s6 offset-s3">
+            <input placeholder="Input your birthdate (mm/dd/yyyy) : " class="white-text" id="input7" type="text" style="text-align: center;">
+          </div>
+          <div class="col s6 offset-s3">
+            <h4 id="answer7"></h4>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <script src="carousel.js"></script>
+  <script src="section3.js"></script>
+  <script src="section4.js"></script>
+  <script src="section5.js"></script>
+  <script src="section6.js"></script>
+  <script src="section7.js"></script>
+
+</body>
+</html>
