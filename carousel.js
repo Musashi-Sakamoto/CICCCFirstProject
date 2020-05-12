@@ -1,6 +1,7 @@
-$(document).ready(function() {
-  $('.carousel').carousel({
+document.addEventListener('DOMContentLoaded', function() {
+  const elems = document.querySelectorAll('.carousel');
+  M.Carousel.init(elems, {
     fullWidth: true,
-    indicators: true
-  }).height(window.innerHeight);
+    indicators: true,
+  });
 });
