@@ -9,13 +9,14 @@
       
         function ageResponse(age) {
             if (age>200){ return 'Input is invalid'}
+            if(isNaN(age)) return 'waiting for inputing '
             else{
-                if (age <=20) {
+                if (age <=20 && age>=0) {
                     return 'You need to study hard';}
-                    else if (age<=30){ 
+                    else if (age<=30 && age >20){ 
                     return 'Study more';}
-                    else if (age<=40) {return 'Make a lot of money';} 
-                    else if (age<=50) {return 'Be successful';} 
+                    else if (age<=40 && age>30) {return 'Make a lot of money';} 
+                    else if (age<=50 && age>40) {return 'Be successful';} 
                     else {return 'Travel a lot'}        
                 }
         }
