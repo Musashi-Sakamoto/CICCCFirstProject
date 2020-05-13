@@ -2,10 +2,20 @@
   height: 100vh;
 }
 
+.carousel-item {
+  padding: 10vh 10vh;
+}
+
 p.white-text {
   padding: 0px 16px;
 }
 
 h4 {
   word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  a.btn {
+    margin-bottom: 8px;
+  }
 }
