@@ -20,10 +20,10 @@
       <p class="white-text">1 st Section: What is your name? Then, it will show on `Hi, ${yourName}, Welcome to this
         page`</p>
         <div class="row">
-          <div class="input-field col s6 offset-s3">
+          <div class="input-field col s12 m6 offset-m3">
             <input placeholder="Input your name : " class="white-text" id="input1" type="text" style="text-align: center;">
           </div>
-          <div class="col s6 offset-s3">
+          <div class="col s12">
             <h4 id="answer1"></h4>
           </div>
         </div>
@@ -35,20 +35,26 @@
         addition, and subtraction.</p>
       <div>
         <div class="row">
-          <div class="input-field col s6 offset-s3">
+          <div class="input-field col m6 s12">
             <input placeholder="Input first number?" id="num2first" class="white-text" type="number" style="text-align: center;">
           </div>
-          <div class="input-field col s6 offset-s3">
+          <div class="input-field col m6 s12">
             <input placeholder="Input second number?" id="num2second" class="white-text" type="number" style="text-align: center;">
           </div>
-          <div class="col s6 offset-s3">
+          <div class="col s12 m3">
             <a id="button2plus" class="waves-effect waves-light btn">plus</a>
+          </div>
+          <div class="col s12 m3">
             <a id="button2minus" class="waves-effect waves-light btn">minus</a>
+          </div>
+          <div class="col s12 m3">
             <a id="button2times" class="waves-effect waves-light btn">times</a>
+          </div>
+          <div class="col s12 m3">
             <a id="button2divide" class="waves-effect waves-light btn">divide</a>
           </div>
           
-          <div class="col s6 offset-s3">
+          <div class="col s12">
             <h4 id="answer2"></h4>
           </div>
         </div>
@@ -63,10 +69,10 @@
         Age &lt;= 50 “Be successful”
         Others “Travel a lot”</p>
         <div class="row">
-          <div class="input-field col s6 offset-s3">
+          <div class="input-field col m6 offset-m3 s12">
             <input placeholder="Input your age : " class="white-text" id="input3" type="number" style="text-align: center;">
           </div>
-          <div class="col s6 offset-s3">
+          <div class="col s12">
             <h4 id="answer3"></h4>
           </div>
         </div>
@@ -77,22 +83,15 @@
       <p class="white-text">4 th Section: as two numbers using input tags and show the sum from numberA through
         numberB including these two numbers (ex, 4 and 6 will show 15)</p>
         <div class="row">
-          <table>
-            <tr>
-              <td>
-                <div class="input-field col s6 offset-s3">
-                  <input placeholder="Input your first number : " class="white-text" id="input41" type="number" style="text-align: center;">
-                </div>
-              </td>
-              <td>
-                <div class="input-field col s6 offset-s3">
-                  <input placeholder="Input your second number : " class="white-text" id="input42" type="number" style="text-align: center;">
-                </div>
-              </td>
-            </tr>
-          </table>
           
-          <div class="col s6 offset-s3">
+          <div class="input-field col m6 s12">
+            <input placeholder="Input your first number : " class="white-text" id="input41" type="number" style="text-align: center;">
+          </div>
+          <div class="input-field col m6 s12">
+            <input placeholder="Input your second number : " class="white-text" id="input42" type="number" style="text-align: center;">
+          </div>
+          
+          <div class="col s12">
             <h4 id="answer4"></h4>
           </div>
         </div>
@@ -103,10 +102,10 @@
       <p class="white-text">5 th Section: Ask a number and shows the number is a prime number or not (the smallest
         prime number is 2)</p>
       <div class="row">
-        <div class="input-field col s6 offset-s3">
+        <div class="input-field col m6 offset-m3 s12">
           <input placeholder="Is it a prime number?" class="white-text" id="input5" type="number" style="text-align: center;">
         </div>
-        <div class="col s6 offset-s3">
+        <div class="col s12">
           <h4 id="answer5"></h4>
         </div>
       </div>
@@ -117,10 +116,10 @@
       <p class="white-text">6 th Section: Ask a number ‘n’ to show all the Fibonacci numbers up to n th Fibonacci number.
         For example, if the number is 7, it will show 1, 1, 2, 3, 5, 8, 13</p>
       <div class="row">
-        <div class="input-field col s6 offset-s3">
+        <div class="input-field col m6 offset-m3 s12">
           <input placeholder="Insert a number" class="white-text" id="input6" type="number" style="text-align: center;">
         </div>
-        <div class="col s6 offset-s3">
+        <div class="col s12">
           <h4 id="answer6"></h4>
         </div>
       </div>
@@ -131,10 +130,10 @@
       <p class="white-text">7 th Section: Ask a birth year and calculate how many days you lived till today. Show the days
         you lived in a DOM element. (Please ignore the leap year)</p>
         <div class="row">
-          <div class="input-field col s6 offset-s3">
-            <input placeholder="Input your birthdate (mm/dd/yyyy) : " class="white-text" id="input7" type="text" style="text-align: center;">
+          <div class="input-field col m6 offset-m3 s12">
+            <input placeholder="Input your birthdate (mm/dd/yyyy) : " class="white-text truncate" id="input7" type="text" style="text-align: center;">
           </div>
-          <div class="col s6 offset-s3">
+          <div class="col s12">
             <h4 id="answer7"></h4>
           </div>
         </div>
